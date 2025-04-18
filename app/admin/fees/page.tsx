@@ -34,7 +34,7 @@ import {
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { format } from 'date-fns';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/lib/supabase';
 import { CreditCard, Search, Download, IndianRupee, CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
 
